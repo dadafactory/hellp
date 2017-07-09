@@ -22,8 +22,13 @@
         <activity
             android:name=".BathroomActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:screenOrientation="landscape"
-            android:label="@string/title_activity_bathroom"></activity>
+            android:label="@string/title_activity_bathroom"
+            android:screenOrientation="landscape" />
+
+        <receiver
+            android:name=".HellpReceiver"
+            android:enabled="true"
+            android:exported="true"></receiver>
     </application>
 
 </manifest>

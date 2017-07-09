@@ -67,7 +67,7 @@
         android:id="@+id/img_character"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/character_side_1"
+        app:srcCompat="@drawable/chrt_sd_shw_n"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">hellp</string>
     <string name="title_activity_bathroom">BathroomActivity</string>
+    <string name="pipi">피피</string>
 </resources>
