@@ -29,6 +29,10 @@
             android:name=".HellpReceiver"
             android:enabled="true"
             android:exported="true"></receiver>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="IO_FABRIC_APIKEY" />
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
